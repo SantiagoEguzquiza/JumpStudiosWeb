@@ -6,22 +6,25 @@ Repositorio de la futura landing page de **Jump Studios**. El sitio servirá com
 
 Etapa inicial de organización y planificación. Por ahora, este repositorio contiene únicamente la estructura de carpetas y la documentación del proyecto. Todavía no hay código, dependencias ni herramientas de desarrollo configuradas.
 
+Sprint 1: documentación de diseño completada (dirección artística, estructura, sistema de diseño y animaciones). Seguimiento en `docs/03-roadmap.md`.
+
 ## Objetivo
 
 Crear una landing clara, visual y adaptable a dispositivos móviles que comunique la identidad de Jump Studios, presente su propuesta y facilite el contacto con potenciales clientes o colaboradores.
 
 ## Secciones propuestas
 
-La estructura de contenido se definirá antes de comenzar el desarrollo. Como punto de partida:
+La estructura conceptual aprobada se documenta en `docs/08-structure.md`. No se definirá un wireframe definitivo antes de probar la web.
 
-- **Inicio:** presentación breve de Jump Studios y una llamada a la acción.
-- **Sobre el estudio:** identidad, enfoque y equipo.
-- **Servicios:** qué ofrece el estudio y cómo trabaja.
-- **Proyectos:** selección de trabajos o casos destacados, cuando haya material disponible.
-- **Contacto:** canales de comunicación y enlaces a redes sociales.
-- **Pie de página:** información general y enlaces relevantes.
+## Documentación
 
-Estas secciones son una propuesta inicial y pueden ajustarse según las necesidades del estudio.
+- Brief: `docs/01-brief.md`
+- Roadmap y seguimiento: `docs/03-roadmap.md`
+- Arquitectura: `docs/04-architecture.md` (pendiente de integración)
+- Sistema de diseño: `docs/05-design-system.md`
+- Animaciones: `docs/06-motion.md`
+- Dirección artística: `docs/07-art-direction.md`
+- Estructura de la landing: `docs/08-structure.md`
 
 ## Estructura de carpetas
 
