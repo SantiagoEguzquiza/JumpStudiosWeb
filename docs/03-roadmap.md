@@ -1,8 +1,8 @@
 # Roadmap y seguimiento — Jump Studios
 
 **Proyecto:** JumpStudiosWeb
-**Versión del documento:** 1.1
-**Fecha:** 27/11/2026
+**Versión del documento:** 1.2
+**Fecha:** 28/11/2026
 **Etapa:** Cierre del Sprint 1
 
 ## 1. Flujo acordado
@@ -13,20 +13,22 @@
 4. Rediseño iterativo.
 5. Validación final.
 
-El alcance se actualizó: no se realizará un wireframe
-definitivo antes de probar la web.
+El alcance se actualizó: el wireframe definitivo queda
+descartado en esta etapa. La estructura se validará
+probando la web.
 
 ## 2. Sprint 1 — Planificación y definición técnica
 
-**Estado:** documentación revisada, pendiente de integración
-mediante Pull Request.
+**Estado:** completado. La documentación técnica
+(desarrollador B) y la documentación de diseño
+(desarrollador A) se integran en main mediante Pull Request.
 
 | Documento | Estado |
 |---|---|
 | docs/01-brief.md | Extracto provisional; falta el dossier original |
-| docs/02-requirements.md | Borrador local; autoría sin confirmar, no integrado en main |
+| docs/02-requirements.md | Integrado. Mantenimiento a cargo del desarrollador A; autoría original sin confirmar |
 | docs/03-roadmap.md | Vigente |
-| docs/04-architecture.md | Propuesta pendiente de aprobación; en main el archivo está vacío |
+| docs/04-architecture.md | Integrado. Stack tecnológico aprobado; resto de la propuesta pendiente de aprobación |
 | docs/05-design-system.md | Base para la primera implementación |
 | docs/06-motion.md | Base para la primera implementación |
 | docs/07-art-direction.md | Concepto aprobado |
@@ -39,6 +41,9 @@ mediante Pull Request.
 Alcance previsto: implementar una versión web funcional con
 el tema híbrido, según la estructura y el sistema de diseño
 documentados, para su posterior prueba en escritorio y móvil.
+
+La base de Next.js (desarrollador B) permanece pendiente de
+integración en main.
 
 ## 4. Decisiones del cierre del Sprint 1
 
@@ -59,20 +64,18 @@ documentados, para su posterior prueba en escritorio y móvil.
   1024 px, margen de tablet de 32 px y separación entre
   secciones de 64 px (móvil) y 96 px (tablet).
 
-## 5. Inconsistencias pendientes
+## 5. Inconsistencias resueltas
 
-- La versión local, no integrada, de docs/04-architecture.md
-  (trabajo del desarrollador B) utiliza «Barbería» y «Península».
-  No se modificó; la corrección corresponde a su autor.
-- docs/05-design-system.md, docs/06-motion.md y
-  docs/08-structure.md citan secciones de docs/04-architecture.md,
-  cuyo contenido todavía no está integrado en main. Las
-  referencias quedarán resueltas cuando se integre la
-  arquitectura.
+- docs/04-architecture.md y docs/02-requirements.md utilizan
+  los nombres oficiales Wis Barbers y Peninsula Constructora.
+- Las referencias de docs/05-design-system.md,
+  docs/06-motion.md y docs/08-structure.md a secciones de
+  docs/04-architecture.md quedan resueltas con su integración.
 
 ## 6. Bloqueos y decisiones pendientes
 
-- Aprobación de docs/04-architecture.md.
+- Decisiones pendientes de docs/04-architecture.md (sección 20).
+- Integración en main de la base de Next.js.
 - Logotipos oficiales en SVG: no existen en el repositorio.
 - Dossier corporativo original: no incorporado.
 - Canales y datos de contacto.
