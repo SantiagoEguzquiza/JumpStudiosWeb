@@ -14,7 +14,17 @@ clientes.
 
 ## Estado del proyecto
 
-Sprint 1 — Planificación y definición técnica.
+Sprint 1 — Planificación y definición técnica: completado.
+Documentación técnica y documentación de diseño integradas.
+
+Sprint 2 — Primera implementación funcional: pendiente.
+La base de Next.js está pendiente de integración en main.
+
+No se elaborará un wireframe definitivo en esta etapa. La
+estructura conceptual aprobada se documenta en
+docs/08-structure.md.
+
+Seguimiento de los sprints: docs/03-roadmap.md.
 
 ## Stack tecnológico
 
@@ -47,10 +57,12 @@ los requisitos visuales aprobados.
 
 - Brief: docs/01-brief.md
 - Requisitos: docs/02-requirements.md
-- Roadmap: docs/03-roadmap.md
+- Roadmap y seguimiento: docs/03-roadmap.md
 - Arquitectura: docs/04-architecture.md
 - Sistema de diseño: docs/05-design-system.md
 - Animaciones: docs/06-motion.md
+- Dirección artística: docs/07-art-direction.md
+- Estructura de la landing: docs/08-structure.md
 
 La documentación se completará progresivamente
 durante las etapas correspondientes.
@@ -66,6 +78,11 @@ durante las etapas correspondientes.
 
 El diseño deberá respetar el manual de identidad
 visual de Jump Studios.
+
+La dirección artística, el sistema de diseño y las
+animaciones aprobadas se documentan en
+docs/07-art-direction.md, docs/05-design-system.md y
+docs/06-motion.md.
 
 ## Flujo de trabajo
 
