@@ -45,3 +45,9 @@ No introducir transiciones ni animaciones que no hayan sido aprobadas y document
 - No realizar modificaciones directamente sobre `main`.
 - Ejecutar las comprobaciones disponibles antes de entregar cambios.
 - Documentar las decisiones que afecten a la arquitectura compartida.
+
+## Uso de agentes de IA
+
+- No realizar commits, push ni merges sin autorización del desarrollador.
+- No sobrescribir cambios existentes de otros desarrolladores.
+- No afirmar que una comprobación fue realizada si no se ejecutó realmente.

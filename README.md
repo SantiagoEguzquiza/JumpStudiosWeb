@@ -1,59 +1,94 @@
-# Jump Studios — Landing page
 
-Repositorio de la futura landing page de **Jump Studios**. El sitio servirá como presentación del estudio: quiénes somos, qué hacemos y cómo ponerse en contacto con nosotros.
+# Jump Studios — Landing Page
 
-## Estado del proyecto
-
-Etapa inicial de organización y planificación. Por ahora, este repositorio contiene únicamente la estructura de carpetas y la documentación del proyecto. Todavía no hay código, dependencias ni herramientas de desarrollo configuradas.
+Repositorio oficial de la landing page de Jump Studios,
+empresa de soluciones informáticas especializada en
+desarrollo web y software a medida.
 
 ## Objetivo
 
-Crear una landing clara, visual y adaptable a dispositivos móviles que comunique la identidad de Jump Studios, presente su propuesta y facilite el contacto con potenciales clientes o colaboradores.
+Desarrollar una landing page corporativa que comunique
+los servicios, la identidad y los proyectos destacados
+de Jump Studios, facilitando el contacto con potenciales
+clientes.
 
-## Secciones propuestas
+## Estado del proyecto
 
-La estructura de contenido se definirá antes de comenzar el desarrollo. Como punto de partida:
+Sprint 1 — Planificación y definición técnica.
 
-- **Inicio:** presentación breve de Jump Studios y una llamada a la acción.
-- **Sobre el estudio:** identidad, enfoque y equipo.
-- **Servicios:** qué ofrece el estudio y cómo trabaja.
-- **Proyectos:** selección de trabajos o casos destacados, cuando haya material disponible.
-- **Contacto:** canales de comunicación y enlaces a redes sociales.
-- **Pie de página:** información general y enlaces relevantes.
+## Stack tecnológico
 
-Estas secciones son una propuesta inicial y pueden ajustarse según las necesidades del estudio.
+- Next.js (App Router).
+- React.
+- TypeScript.
+- CSS Modules.
+- CSS Custom Properties.
+- Node.js.
+- npm.
+- ESLint.
+- Prettier.
 
-## Estructura de carpetas
+Las bibliotecas de animación se seleccionarán según
+los requisitos visuales aprobados.
 
-```text
-JumpStudiosPage/
-├── docs/                 # Planificación y referencias del proyecto
-├── content/              # Textos y contenido de la landing
-├── design/               # Referencias visuales y propuestas de diseño
-├── public/
-│   └── assets/
-│       ├── images/       # Fotografías e imágenes
-│       ├── logos/        # Logotipo y variantes de marca
-│       ├── icons/        # Iconos
-│       └── fonts/        # Tipografías locales, si se utilizan
-├── src/                  # Reservado para el futuro código del sitio
-└── README.md
-```
+## Estructura del repositorio
 
-Los archivos `.gitkeep` permiten conservar las carpetas vacías en Git; no contienen código.
+| Directorio o archivo | Finalidad |
+|---|---|
+| docs/ | Documentación y decisiones del proyecto |
+| design/ | Referencias y propuestas visuales |
+| content/ | Contenido comercial |
+| public/assets/ | Recursos gráficos y tipográficos |
+| src/ | Código fuente |
+| AGENTS.md | Directrices de desarrollo |
+| CLAUDE.md | Referencia a AGENTS.md |
 
-## Pendientes antes del desarrollo
+## Documentación
 
-- Definir la propuesta de Jump Studios, su público y el objetivo principal de la landing.
-- Confirmar las secciones y redactar los textos.
-- Reunir el logo, la paleta de colores, las tipografías y el material visual.
-- Definir la llamada a la acción y los canales de contacto.
-- Aprobar el diseño y elegir las tecnologías y el alojamiento.
+- Brief: docs/01-brief.md
+- Requisitos: docs/02-requirements.md
+- Roadmap: docs/03-roadmap.md
+- Arquitectura: docs/04-architecture.md
+- Sistema de diseño: docs/05-design-system.md
+- Animaciones: docs/06-motion.md
 
-## Tecnologías
+La documentación se completará progresivamente
+durante las etapas correspondientes.
 
-Por definir. La estructura inicial no presupone un framework ni un proveedor de alojamiento.
+## Identidad visual
 
-## Desarrollo y publicación
+| Color | HEX |
+|---|---|
+| Jump Midnight | #18222B |
+| Jump Green | #02BF60 |
+| Jump White | #FFFFFF |
+| Jump Black | #000000 |
 
-Todavía no hay comandos de instalación, ejecución o despliegue. Se documentarán cuando comience la implementación.
+El diseño deberá respetar el manual de identidad
+visual de Jump Studios.
+
+## Flujo de trabajo
+
+- Trabajar en ramas independientes.
+- Mantener main como rama estable.
+- Integrar cambios mediante Pull Requests.
+- Coordinar modificaciones sobre archivos compartidos.
+- Ejecutar las comprobaciones disponibles antes de
+  integrar cambios.
+
+## Uso de agentes de IA
+
+Todos los agentes deberán respetar las directrices
+establecidas en AGENTS.md.
+
+CLAUDE.md referencia dicho archivo para mantener
+una única fuente de instrucciones.
+
+## Instalación y ejecución
+
+Pendiente de inicialización del entorno de desarrollo
+durante el Sprint 2.
+
+## Despliegue
+
+Proveedor de alojamiento pendiente de definición.
